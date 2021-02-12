@@ -19,7 +19,7 @@ CHECK
 
 signalk-server --sample-nmea0183-data
 
-sudo signalk-server-setup
+sudo signalk-server-setup (boat data)
 
 sudo systemctl enable signalk.service
 
