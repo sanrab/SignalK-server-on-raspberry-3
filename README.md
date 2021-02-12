@@ -11,7 +11,11 @@ sudo apt install nodejs npm
 
 sudo npm install -g npm@latest
 
-sudo apt install libnss-mdns avahi-utils libavahi-compat-libdnssd-dev (AVAHI BONJOUR)
+AVAHI-BONJOUR
+
+sudo apt install libnss-mdns avahi-utils libavahi-compat-libdnssd-dev
+
+INSTALL SIGNALK-SERVER
 
 sudo npm install -g --unsafe-perm signalk-server
 
@@ -19,7 +23,11 @@ CHECK
 
 signalk-server --sample-nmea0183-data
 
-sudo signalk-server-setup (boat data)
+BOAT DATA
+
+sudo signalk-server-setup
+
+ENABLE AUTOMATIC BOOT
 
 sudo systemctl enable signalk.service
 
